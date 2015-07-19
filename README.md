@@ -1,2 +1,2 @@
 # SynBioStandardizer
-Standardizing gene syntheses for maximum utility in synthetic biology
+Standardizing synthesized gene sequences for maximum utility and independence in synthetic biology
