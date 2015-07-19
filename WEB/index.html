@@ -2,10 +2,10 @@
 <head><title>Synthetic Biology Gene Standardizer</title></head>
 <body>
 <h3>Synthetic Biology Gene Standardizer</h3><br>
-<form action="/cgi-bin/BioBrickMe.cgi" method="post">
 Either select an organism and type in a gene name to get the refactored sequence of that<br>
 gene and organism, or paste in your own sequence and choose which standard to refactor <br>
 the sequence for. The default is making it compatible with all standards.<br><br><hr><br>
+<form action="/cgi-bin/PrintSynGene.cgi" method="post">
 <table>
    <tr>
       <td>Organism: </td>
@@ -33,9 +33,9 @@ the sequence for. The default is making it compatible with all standards.<br><br
       <td><input type="checkbox" name="BioB" value="BioB" checked="checked">BioBrick<br>
           <input type="checkbox" name="BglB" value="BglB" checked="checked">BglBrick<br>
           <input type="checkbox" name="MoClo" value="MoClo" checked="checked">MoClo<br>
-          <input type="checkbox" name="MoClo" value="GB" checked="checked">GoldenBraid<br>
-          <input type="checkbox" name="easyclone" value="easyclone" checked="checked">NdeI/XhoI cloning<br>
-          <input type="checkbox" name="chi" value="chi" checked="checked">Recombination hotspot (CHI site) deletion<br>
+          <input type="checkbox" name="GB" value="GB" checked="checked">GoldenBraid<br>
+          <input type="checkbox" name="N" value="N" checked="checked">NdeI analysis<br>
+          <input type="checkbox" name="chi" value="chi" checked="checked">Recombination hotspot (Chi site) deletion<br>
    </tr>
    <tr>
       <td><hr></td>
