@@ -23,7 +23,7 @@ from math import *
 #
 # NCBI database identifier - Please change
 #
-#Entrez.email = "tyson.shepherd@icm.uu.se"
+#Entrez.email = ""
 # 
 # Parse command line arguments:
 #   --help, -h: Help
