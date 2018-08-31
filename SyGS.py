@@ -49,7 +49,7 @@ muts_handle = open("Mutations.txt", "a")
 #
 # Start your engines
 #
-stnds = ['N','BioB','BglB','MoClo','GB','Chi']
+stnds = ['N','BioB','BglB','MoClo','GB', 'Loop','Chi']
 SynthRecs = []
 q = 0
 for p in records:
@@ -62,6 +62,7 @@ for p in records:
 #           BglBrick:    EcoRI, XhoI, BglII, BamHI, 
 #           MoClo:       BbsI, BsaI, MlyI
 #           GoldenBraid: BsmI, BtgZI
+#           Loop Assembly: BsaI, SapI
 #           Chi sites
 # Then makes non-conflicting point mutations to highest allowed codon usage
 #
